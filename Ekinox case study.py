@@ -431,6 +431,7 @@ def create_scatter_plot(df):
     return px.scatter(df, x='FinalGrade', y='Improvement_Score', color='Student name')
 
 app = dash.Dash()
+server =app.server
 
 app.layout = html.Div([
     html.Div([
