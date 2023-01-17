@@ -1,6 +1,6 @@
 dash
 pandas
-sklearn
+scikit-learn
 seaborn
 numpy
 matplotlib
